@@ -1,0 +1,41 @@
+h1, h2, a:hover{
+    color: goldenrod;
+}
+
+nav{
+    text-align: right;
+}
+
+.centrado{
+    text-align: center;
+}
+
+#banner{
+    width: 1100px;
+    height: 400px;
+}
+
+ul, h3{
+    font-style: italic;
+}
+
+h3, nav{
+    background-color:rgb(254, 231, 174);
+}
+
+#parrafo1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.video{
+    text-align: center;
+}
+
+aside{
+    text-align: right;
+    display: inline-block;
+}
+
+figure{
+    display: inline-block;
+}
