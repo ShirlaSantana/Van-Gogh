@@ -1,81 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Obras de Van Gogh</title>
 </head>
-
 <body>
-    <header class="centrado">
-        <h1>Las obras de Van Gogh</h1>
+    <header>
+        <h1>Las Obras de Van Gogh</h1>
+        <nav>
+            <div>
+                <p>Acompaña tu recorrido con música</p>
+                <audio src="audio/Kathrin Klimek - 106er Lounge.mp3" controls loop preload="metadata"></audio>
+            </div>
+            <a href="#lista">Galeria</a>
+            <a href="#tabla">Otros pintores</a>
+            <a href="https://historia.nationalgeographic.com.es/a/vincent-van-gogh-pintor-atormentado-e-incomprendido_14554">Conoce más del pintor</a>
+        </nav>
     </header>
-    <nav>
-        <a href="">Galería</a>
-        <a
-            href="https://historia.nationalgeographic.com.es/a/vincent-van-gogh-pintor-atormentado-e-incomprendido_14554">Conoce
-            más sobre este pintor</a>
-        <audio src="audio/Kathrin Klimek - 106er Lounge.mp3" controls loop preload="metadata"></audio>
-    </nav>
+
     <main>
-        <figure>
-            <img src="https://www.liderempresarial.com/wp-content/uploads/2020/02/image-1.png" alt="Galeria de obras"
-                id="banner">
-            <figcaption style="color:darkgray" class="centrado">Galeria de sus obras principales</figcaption>
-        </figure>
-        <aside>
-            <iframe src="https://historia.nationalgeographic.com.es/a/vincent-van-gogh-pintor-atormentado-e-incomprendido_14554" frameborder="0" width="300" height="500"></iframe>
-        </aside>
         <section>
-            <article>
-                <p>
-                    <br>
-                    <dd>
-                        <h2>¿Quién fue Van Gogh?</h2>
-                    </dd>
-                </p>
-                <p id="parrafo1">
-                    <dd>Pintó unos 800 cuadros (entre ellos 43 autorretratos y 148 acuarelas) y realizó más de 1600
-                        dibujos.
-                        Una figura central en su vida fue su hermano menor Theo, marchante de arte en París, quien le
-                        prestó
-                        apoyo financiero de manera continua y desinteresada. La gran amistad entre ellos está
-                        documentada en
-                        las numerosas cartas que se intercambiaron desde agosto de 1872. De las 800 cartas que se
-                        conservan
-                        del pintor, unas 650 fueron para Theo; las otras son correspondencia con amigos y familiares.2​
-                    </dd>
-                </p>
+            <article id="banner">
+                <figure>
+                    <img src="https://www.liderempresarial.com/wp-content/uploads/2020/02/image-1.png" alt="Galeria de obras">
+                    <figcaption>Galeria de sus obras principales</figcaption>
+                </figure>
             </article>
-            <article class="video">
+
+            <article id="biografia">
+                <h2>¿Quién fue Vincent Van Gogh?</h2>
+                <p>Van Gogh nació en 1853 y creció en Holanda. Fue criado en una familia religiosa con su padre siendo un ministro. Cuando terminó sus estudios, Vincent siguió la profesión de su tío y se convirtió en un comerciante de arte aprendiendo el comercio en Holanda y luego trabajando en Inglaterra y Francia. Vincent tuvo éxito e inicialmente fue contento con su trabajo. Sin embargo, pronto se cansó de la empresa de arte, especialmente en París, y perdió interés en el comercio. Después de regresar a casa, Vincent comenzó estudiar teología. Si bien muy apasionado y entusiastico, él falló los exámenes para entrar en un par de programas. Característico de su personalidad, era inteligente, capaz de hablar varios idiomas, pero él no creía que el latín era una lengua para predicar a los pobres. Durante este período, trabajó como misionero en una comunidad minera de carbon viviendo con los pobres trabajadores gente comúnes. A medida que su desarrollo como un predicador estaba estancando, su interés a aquellos alrededor de él aumentaba. Su vida como artista comenzaba.</p>
+            </article>
+
+            <article id="video">
                 <h2>Un resumen de la vida de Vincent Van Gogh</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/svNjf3KEPRs"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </article>
-            <article>
-                <br>
-                <p id="subtitulo">
-                    <b> Sus pricipales obras son:</b>
-                </p>
+
+            <article id="lista">
+                <h3>Sus obras más famosas</h3>
                 <ul type="circle">
                     <li>Noche estrellada (1889)</li>
                     <li>Los girasoles (1888)</li>
                     <li>Lirios (1889)</li>
                     <li>Almendro en flor (1890)</li>
+                    <li>Autorretato (1889)</li>
                 </ul>
             </article>
-            <footer class="centrado">
-                <h3>La normalidad es un camino pavimentado: Es cómodo para caminar, pero no crecen flores en él.</h3>
-                <img src="https://tse3.mm.bing.net/th?id=OIP.uZ6LpltKk59VmtwEAgCemQHaE8&pid=Api&P=0&h=180" alt="">
-            </footer>
+
+            <article id="galeria">
+                <img src="imagen/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="noche estrellada">
+                <img src="imagen/241px-Van_Gogh_Twelve_Sunflowers.jpg" alt="los girasoles">
+                <img src="imagen/Irises-Vincent_van_Gogh.jpg" alt="Lirios">
+                <img src="imagen/almendroenflor.jpg" alt="Almendro en flor">
+                <img src="imagen/autorretrato.jpg" alt="Autorretato">
+            </article>
+
+            <article id="tabla">
+                <h2>Otros pintores famosos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pintor</th>
+                            <th>Obras principales</th>
+                            <th>Conoce más</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pablo Picasso</td>
+                            <td>La mujer que llora (1937). La vida(1909). El sueño(1932).</td>
+                            <td><a href="https://www.donquijote.org/es/cultura-espanola/arte/pablo-picasso/">Biografía</a></td>
+                        </tr>
+                        <tr>
+                            <td>Leonardo da Vinci</td>
+                            <td>La última cena (1498). Hombre de vitruvio. Monna Lisa. </td>
+                            <td><a href="https://www.wikiart.org/es/leonardo-da-vinci"> Biografía</a></td>
+                        </tr>
+                        <tr>
+                            <td>Salvador Dalí</td>
+                            <td>La metamorfosis de narciso (1937). La persistencia de la memoria (1931). La tentación de San Antonio (1946).</td>
+                            <td><a href="https://www.wikiart.org/es/salvador-dali"> Biografía</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <aside>
+                <h3>¡Busca a tu pintor favorito!</h3>
+                <iframe src="https://www.wikiart.org/es" frameborder="0" width="500" height="400"></iframe>
+            </aside>
         </section>
     </main>
+    <footer>
+        <h3>La normalidad es un camino pavimentado: Es cómodo para caminar, pero no crecen flores en él.</h3>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.uZ6LpltKk59VmtwEAgCemQHaE8&pid=Api&P=0&h=180" alt="">
+    </footer>
 </body>
-|
-
 </html>
