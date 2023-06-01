@@ -62,6 +62,34 @@
                 <img src="imagen/autorretrato.jpg" alt="Autorretato">
             </article>
 
+            <article id="formulario">
+                <form action="" method="post">
+                    <fieldset> 
+                        <legend>¡Envíanos tus comentarios!</legend>
+                        <label for="nombre">
+                            <input type="text" id="nombre" placeholder="Nombre" size="50%">
+                        </label>
+                        <label for="correo">
+                            <input type="text" id="correo" placeholder="info@ejemplo.com" size="75%">
+                        </label>
+                        <label for="mensaje">
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"> ¡Tu página es increible!</textarea>
+                        </label>
+                        <label for="calificacion">
+                            Califica la página
+                            <br>
+                            Muy mala <input type="range" id="calificacion" min="0" max="5"> Muy buena
+                        </label>
+                        <label for="check">
+                            Quiero suscribirme al Newsletter
+                            <input type="checkbox" name="check" id="check">
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar formulario">
+                </form>
+            </article>
+
             <article id="tabla">
                 <h2>Otros pintores famosos</h2>
                 <table>

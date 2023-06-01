@@ -95,7 +95,7 @@ td>a:hover{
 }
 
 th, td{
-    padding: 5px;
+    padding: 8px;
 }
 
 th{
@@ -115,4 +115,24 @@ footer{
 footer>h3{
     font-style: italic;
 }
+
+legend{
+    color:darkgoldenrod;
+    font-weight: bold;
+}
+
+fieldset{
+    border-color: darkgoldenrod;
+}
+
+form{
+    width: 50%;
+    height: auto;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+
 
