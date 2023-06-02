@@ -108,11 +108,13 @@ td>a:hover{
     color:darkgoldenrod;
 }
 
-th, td{
+td{
     padding: 8px;
+    border: 2px solid antiquewhite;
 }
 
 th{
+    padding: 8px;
     background-color:rgba(204, 153, 0, 0.34);
 }
 
