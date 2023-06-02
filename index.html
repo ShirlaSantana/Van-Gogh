@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Obras de Van Gogh</title>
 </head>
+
 <body>
     <header>
         <h1>Las Obras de Van Gogh</h1>
@@ -17,7 +19,8 @@
             </div>
             <a href="#lista">Galeria</a>
             <a href="#tabla">Otros pintores</a>
-            <a href="https://historia.nationalgeographic.com.es/a/vincent-van-gogh-pintor-atormentado-e-incomprendido_14554">Conoce más del pintor</a>
+            <a href="https://historia.nationalgeographic.com.es/a/vincent-van-gogh-pintor-atormentado-e-incomprendido_14554"
+                target="_blank">Conoce más del pintor</a>
         </nav>
     </header>
 
@@ -25,14 +28,37 @@
         <section>
             <article id="banner">
                 <figure>
-                    <img src="https://www.liderempresarial.com/wp-content/uploads/2020/02/image-1.png" alt="Galeria de obras">
+                    <img src="https://www.liderempresarial.com/wp-content/uploads/2020/02/image-1.png"
+                        alt="Galeria de obras">
                     <figcaption>Galeria de sus obras principales</figcaption>
                 </figure>
             </article>
 
             <article id="biografia">
                 <h2>¿Quién fue Vincent Van Gogh?</h2>
-                <p>Van Gogh nació en 1853 y creció en Holanda. Fue criado en una familia religiosa con su padre siendo un ministro. Cuando terminó sus estudios, Vincent siguió la profesión de su tío y se convirtió en un comerciante de arte aprendiendo el comercio en Holanda y luego trabajando en Inglaterra y Francia. Vincent tuvo éxito e inicialmente fue contento con su trabajo. Sin embargo, pronto se cansó de la empresa de arte, especialmente en París, y perdió interés en el comercio. Después de regresar a casa, Vincent comenzó estudiar teología. Si bien muy apasionado y entusiastico, él falló los exámenes para entrar en un par de programas. Característico de su personalidad, era inteligente, capaz de hablar varios idiomas, pero él no creía que el latín era una lengua para predicar a los pobres. Durante este período, trabajó como misionero en una comunidad minera de carbon viviendo con los pobres trabajadores gente comúnes. A medida que su desarrollo como un predicador estaba estancando, su interés a aquellos alrededor de él aumentaba. Su vida como artista comenzaba.</p>
+                <p>Van Gogh nació en 1853 y creció en Holanda. Fue criado en una familia religiosa con su padre siendo
+                    un ministro. Cuando terminó sus estudios, Vincent siguió la profesión de su tío y se convirtió en un
+                    comerciante de arte aprendiendo el comercio en Holanda y luego trabajando en Inglaterra y Francia.
+                    Vincent tuvo éxito e inicialmente fue contento con su trabajo. Sin embargo, pronto se cansó de la
+                    empresa de arte, especialmente en París, y perdió interés en el comercio. Después de regresar a
+                    casa, Vincent comenzó estudiar teología. Si bien muy apasionado y entusiastico, él falló los
+                    exámenes para entrar en un par de programas. Característico de su personalidad, era inteligente,
+                    capaz de hablar varios idiomas, pero él no creía que el latín era una lengua para predicar a los
+                    pobres. Durante este período, trabajó como misionero en una comunidad minera de carbon viviendo con
+                    los pobres trabajadores gente comúnes. A medida que su desarrollo como un predicador estaba
+                    estancando, su interés a aquellos alrededor de él aumentaba. Su vida como artista comenzaba.</p>
+                <p>Unos 900 cuadros, más de 1600 dibujos… Y eso que Van Gogh empezó su carrera seria de pintor
+                    relativamente tarde (32 años). Eso sí… Desde entonces no pararía de pintar a un ritmo frenético
+                    durante 5 años, hasta su trágica muerte.
+                    Mucho se ha hablado de su turbulenta vida y de su locura, de la famosa oreja y de su carácter
+                    intratable. Sin embargo, y por mucho que se especule, su arte era de lo más lúcido. Van Gogh no
+                    pintaba así por «estar loco», no veía las cosas así (eso sería genial!) sino que fue un audaz
+                    experimentador y todo un erudito en la historia del arte.</p>
+                <p>Paradigma de pintor atormentado, de genio solitario que no vendió ni un miserable cuadro en vida (hoy
+                    su obra tiene un valor incalculable), es verdad que tenía serios trastornos psiquiátricos, pero lo
+                    cierto es que fue un pintor muy de su tiempo, que evolucionó de la monocromía típica de la pintura
+                    holandesa y del realismo de sus ídolos Millet o Rembrandt, al arte colorido con el que lo
+                    identificamos hoy en día, pasando por el inevitable influjo del impresionismo.</p>
             </article>
 
             <article id="video">
@@ -63,31 +89,37 @@
             </article>
 
             <article id="formulario">
-                <form action="" method="post">
-                    <fieldset> 
-                        <legend>¡Envíanos tus comentarios!</legend>
-                        <label for="nombre">
-                            <input type="text" id="nombre" placeholder="Nombre" size="50%">
-                        </label>
-                        <label for="correo">
-                            <input type="text" id="correo" placeholder="info@ejemplo.com" size="75%">
-                        </label>
-                        <label for="mensaje">
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"> ¡Tu página es increible!</textarea>
-                        </label>
-                        <label for="calificacion">
-                            Califica la página
-                            <br>
-                            Muy mala <input type="range" id="calificacion" min="0" max="5"> Muy buena
-                        </label>
-                        <label for="check">
-                            Quiero suscribirme al Newsletter
-                            <input type="checkbox" name="check" id="check">
-                        </label>
-                    </fieldset>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar formulario">
-                </form>
+                <div class="formul">
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>¡Envíanos tus comentarios!</legend>
+                            <label for="nombre">
+                                <input type="text" class="input" id="nombre" placeholder="Nombre" size="50%">
+                            </label>
+                            <label for="correo">
+                                <input type="text" class="input" id="correo" placeholder="info@ejemplo.com" size="75%">
+                            </label>
+                            <label for="mensaje">
+                                <textarea name="mensaje" class="input" id="mensaje" cols="70"
+                                    rows="10"> ¡Tu página es increible!</textarea>
+                            </label>
+                            <label for="calificacion">
+                                Califica la página
+                                <br>
+                                Muy mala <input type="range" id="calificacion" min="0" max="4"> Muy buena
+                            </label>
+                            <label for="check">
+                                Quiero suscribirme al Newsletter
+                                <input type="checkbox" name="check" id="check">
+                            </label>
+                            <div>
+                                <input type="reset" value="Borrar formulario">
+                                <input id="enviar" type="submit" value="Enviar">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <img id="imagen" src="imagen/b988e068e30720231c76289c683b6c20.jpg" alt="">
             </article>
 
             <article id="tabla">
@@ -104,17 +136,20 @@
                         <tr>
                             <td>Pablo Picasso</td>
                             <td>La mujer que llora (1937). La vida(1909). El sueño(1932).</td>
-                            <td><a href="https://www.donquijote.org/es/cultura-espanola/arte/pablo-picasso/">Biografía</a></td>
+                            <td><a href="https://www.donquijote.org/es/cultura-espanola/arte/pablo-picasso/"
+                                    target="_blank">Biografía</a></td>
                         </tr>
                         <tr>
                             <td>Leonardo da Vinci</td>
                             <td>La última cena (1498). Hombre de vitruvio. Monna Lisa. </td>
-                            <td><a href="https://www.wikiart.org/es/leonardo-da-vinci"> Biografía</a></td>
+                            <td><a href="https://www.wikiart.org/es/leonardo-da-vinci" target="_blank"> Biografía</a>
+                            </td>
                         </tr>
                         <tr>
                             <td>Salvador Dalí</td>
-                            <td>La metamorfosis de narciso (1937). La persistencia de la memoria (1931). La tentación de San Antonio (1946).</td>
-                            <td><a href="https://www.wikiart.org/es/salvador-dali"> Biografía</a></td>
+                            <td>La metamorfosis de narciso (1937). La persistencia de la memoria (1931). La tentación de
+                                San Antonio (1946).</td>
+                            <td><a href="https://www.wikiart.org/es/salvador-dali" target="_blank"> Biografía</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -131,4 +166,5 @@
         <img src="https://tse3.mm.bing.net/th?id=OIP.uZ6LpltKk59VmtwEAgCemQHaE8&pid=Api&P=0&h=180" alt="">
     </footer>
 </body>
+
 </html>
