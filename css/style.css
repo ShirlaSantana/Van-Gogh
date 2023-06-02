@@ -66,6 +66,12 @@ figcaption{
     color: rgb(188, 187, 187);
 }
 
+#banner:hover{
+    height: 1000px;
+    border-style: dotted;
+    border-color: blue;
+}
+
 #video{
     text-align: center;
     margin-bottom: 30px;
@@ -79,6 +85,13 @@ article>img{
     height: 250px;
     width: 205px;
     margin: 2px;
+}
+
+article>img:hover{
+    height: 300px;
+    width: 250px;
+    border-style: dotted;
+    border-color: blue;
 }
 
 #tabla{
@@ -115,6 +128,13 @@ footer{
     padding: 20px;
     background-color:rgb(255, 219, 172);
     text-align: center;
+}
+
+footer>img:hover{
+    height: 300px;
+    width: 250px;
+    border-style: dotted;
+    border-color: blue;
 }
 
 footer>h3{
