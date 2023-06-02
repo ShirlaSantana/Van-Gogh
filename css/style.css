@@ -208,3 +208,8 @@ div>input{
 .descripcion{
     text-align: center;
 }
+
+.lista{
+    list-style-type: none;
+    list-style-image: url('../imagen/corazon.png');
+}
