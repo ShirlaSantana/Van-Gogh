@@ -28,6 +28,7 @@ article{
 article > p {
     margin: 20px;
     text-align: justify;
+    display: inline-block;
 }
 
 nav{
@@ -181,4 +182,6 @@ div>input{
     color:rgb(51, 51, 51);
 }
 
-
+.descripcion{
+    text-align: center;
+}
