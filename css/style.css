@@ -38,10 +38,12 @@ nav{
     background-color: rgb(225, 180, 66);
     padding: 15px;
     text-align: center;
+    box-shadow: 0 0 10px rgb(168, 73, 1);
 }
 
 a{
     text-decoration: none;
+    text-shadow: 0 4px 5px rgb(47, 47, 47);
 }
 
 nav>a{
@@ -55,10 +57,13 @@ nav>a:hover{
     border-radius: 30px;
     background-color:rgb(255, 237, 203);
     color: chocolate;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.484);
+    text-shadow: none;
 }
 
 figure>img{
     width: 100%;
+    box-shadow: 0 0 4px black;
 }
 
 figcaption{
@@ -85,6 +90,7 @@ article>img{
     height: 250px;
     width: 205px;
     margin: 2px;
+    box-shadow: 0 0 4px black;
 }
 
 article>img:hover{
@@ -102,6 +108,8 @@ table{
     width: 100%;
     margin: 20px auto;
     background-color: rgba(255, 210, 152, 0.577);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.484);
+    
 }
 
 td>a:hover{
@@ -124,12 +132,14 @@ aside{
 
 iframe{
     background-color: aliceblue;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.484);
 }
 
 footer{
     padding: 20px;
     background-color:rgb(255, 219, 172);
     text-align: center;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.484);
 }
 
 footer>img:hover{
@@ -187,6 +197,12 @@ input, textarea{
     vertical-align: top;
 }
 
+fieldset{
+    box-shadow: 0 0 8px black;
+}
+
+
+
 div{
     padding-bottom: 5px;
     margin: 5px;
@@ -214,4 +230,8 @@ div>input{
 .lista{
     list-style-type: none;
     list-style-image: url('../imagen/corazon.png');
+}
+
+.boton:hover{
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.893);
 }
